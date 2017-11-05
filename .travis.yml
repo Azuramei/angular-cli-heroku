@@ -1,13 +1,16 @@
 language: node_js
 #dist: trusty
-#addons:
-#  chrome: stable
+addons:
+  chrome: stable
 before_install:
   yarn install
   - export CHROME_BIN=chromium-browser
   - export DISPLAY=:99.0
   - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --0.23.3
     - export PATH="$HOME/.yarn/bin:$PATH"
+  - # start your web application and listen on `localhost`
+  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
+  ⋮
 #  - sh -e /etc/init.d/xvfb start
 node_js:
   - "6"
