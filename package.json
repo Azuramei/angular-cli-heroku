@@ -1,7 +1,7 @@
   {
-    "name": "learn-travis-YOURNAME",
-    "description": "Simple Travis-CI check for JSHint (Code Linting)",
-    "author": "your name here :-)",
+    "name": "ng-kayode-me",
+    "description": "A boilerplate for building angular applications with travis CI",
+    "author": "Kayode Alayode",
     "version": "0.0.1",
     "scripts": {
       "ng": "ng",
