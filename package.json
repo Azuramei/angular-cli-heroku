@@ -1,37 +1,38 @@
-  {
-    "name": "ng-kayode-me",
-    "description": "A boilerplate for building angular applications with travis CI",
-    "author": "Kayode Alayode",
-    "version": "0.0.1",
-    "scripts": {
-      "ng": "ng",
-      "test": "./node_modules/jshint/bin/jshint hello.js",
-      "dev": "ng serve",
-      "start": "node server.js",
-      "build": "ng build",
-      "lint": "ng lint",
-      "e2e": "ng e2e",
-      "heroku-postbuild": "ng build --aot -prod",
-      "deploy": "git push origin master && git push heroku master"
-    },
-    "devDependencies": {
-      "jshint": "^2.9.5"
-    },
-    "dependencies": {
-      "jshint": "^2.9.5",
-      "@angular/cli": "1.0.1",
-      "@angular/common": "^4.0.0",
-      "@angular/compiler": "^4.0.0",
-      "@angular/compiler-cli": "^4.0.0",
-      "@angular/core": "^4.0.0",
-      "@angular/forms": "^4.0.0",
-      "@angular/http": "^4.0.0",
-      "@angular/platform-browser": "^4.0.0",
-      "@angular/platform-browser-dynamic": "^4.0.0",
-      "@angular/router": "^4.0.0",
-      "core-js": "^2.4.1",
-      "express": "^4.15.2",
-      "rxjs": "^5.1.0",
-      "zone.js": "^0.8.4"
-    }
+{
+  "name": "ng-kayode-me",
+  "description": "A boilerplate for building angular applications with travis CI",
+  "author": "Kayode Alayode",
+  "version": "0.0.1",
+  "scripts": {
+    "ng": "ng",
+    "test": "./node_modules/jshint/bin/jshint hello.js",
+    "dev": "ng serve",
+    "start": "node server.js",
+    "build": "ng build",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "heroku-postbuild": "ng build --aot -prod",
+    "deploy": "git push origin master && git push heroku master"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  },
+  "dependencies": {
+    "@angular/cli": "1.0.1",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/material": "^5.0.0-rc0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "core-js": "^2.4.1",
+    "express": "^4.15.2",
+    "jshint": "^2.9.5",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
   }
+}

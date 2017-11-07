@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
 
 @NgModule({
   declarations: [
@@ -12,7 +14,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
