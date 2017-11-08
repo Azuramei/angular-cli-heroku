@@ -10,7 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import {MdToolbarModule} from '@angular/material';
+import {MdToolbarModule,MdSidenavModule} from '@angular/material';
 
 
 @NgModule({
@@ -22,6 +22,7 @@ import {MdToolbarModule} from '@angular/material';
     FormsModule,
     HttpModule,
     MdToolbarModule,
+    MdSidenavModule,
     BrowserAnimationsModule
   ],
   providers: [],
