@@ -68,4 +68,8 @@
     "webpack-bundle-analyzer": "^2.4.0",
     "webpack-dev-server": "^2.4.5"
   }
+  "engines": {
+    "node": "6.9.2",
+    "yarn": "0.23.3"
+  }
 }
