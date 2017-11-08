@@ -1,10 +1,16 @@
+import {NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+//
+// import { NgModule } from '@angular/core';
+// import { BrowserModule } from '@angular/platform-browser';
+// import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import {MatToolbarModule} from '@angular/material/toolbar';
+import {MdToolbarModule} from '@angular/material';
 
 
 @NgModule({
@@ -15,7 +21,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     BrowserModule,
     FormsModule,
     HttpModule,
-    MatToolbarModule
+    MdToolbarModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
